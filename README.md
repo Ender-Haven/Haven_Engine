@@ -1,17 +1,17 @@
 # Haven_Engine
-`Version a3.0` (Alpha 3.0)
+`Version a3.1` (Alpha 3.1)
 
 *A 2d-based game engine intended for absolute beginners.*
 
 ***TODO:***
-- [ ] Import core functions from version `a2.0`.
-  - [ ] Extract minified HTML page for the canvas to display on.
-    - [ ] Import files allowing Replit to run the project for testing.
-  - [ ] Import canvas graphical library.
+- [x] Import core functions from version `a2.0`.
+  - [x] Extract minified HTML page for the canvas to display on.
+    - [x] Import files allowing Replit to run the project for testing.
+  - [x] Import canvas graphical library.
     - [ ] Impliment more complex shapes for debug and development purposes.
-  - [ ] Math script library.
-    - [ ] Convert line trace to work outside of Khan.
-  - [ ] Import camera system, but do not include screenshot/recording festures.
+  - [x] Math script library.
+    - [x] Convert line trace to work outside of Khan.
+  - [x] Import camera system, but do not include screenshot/recording festures.
 - [ ] Create new collision system based on `a2.0`'s, but instead of the previous step-based system, simplify using line traces-- this allows for line-based collision without too much further development needed, which is turn allows for complex and even convex shapes. This is a trade off however since each face on a collision mass will require more processing. (better method possible?)
   - [ ] Correct collision errors by correcting a players position if they are found to be overlapping a colliding object.
   - [ ] Allow for a more percice collision using the step-based method to prevent the player from falling though objects that are too small to be detected by line traces.

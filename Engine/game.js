@@ -3,7 +3,7 @@ import {cursor} from "./utilLib.js";
 graphicsInit();
 
 // Engine version.
-const version = "a3.0";
+const version = "a3.1";
 // to-do> Use version to modify index.html's verion number display
 
 const canvasID = "canvas";
